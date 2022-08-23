@@ -270,8 +270,9 @@ function M.setup(config)
     LspTroubleNormal = { fg = c.fg_sidebar, bg = c.bg_sidebar },
 
     -- Illuminate
-    illuminatedWord = { bg = c.fg_gutter },
-    illuminatedCurWord = { bg = c.fg_gutter },
+    IlluminatedWordText = { bg = c.fg_gutter },
+    IlluminatedWordRead = { bg = c.fg_gutter },
+    IlluminatedWordWrite = { bg = c.fg_gutter },
 
     -- diff
     diffAdded = { fg = c.git.add },
